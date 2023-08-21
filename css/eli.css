@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    margin: 0%;
+    padding: 0;
+}
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 40px 0px;
+    font-family: Arial, Helvetica, sans-serif;  
+ 
+    background-color: #010102;
+    
+}
+
+    header a{
+        position: relative;
+        color: #398989;
+        font-weight: bold;
+        font-size: 1.5em;
+        letter-spacing: 3px;
+        transition: 1s;
+        text-decoration: none;
+        text-transform: uppercase;    
+        font-size: 24px;
+        overflow: hidden;
+        display: inline-block;
+        padding: 10px 10px;
+    }
+    header a:hover{
+        transform: scale(1.0);
+        box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    }
+    header a::after {
+        content: '';
+        width: 2.5rem;
+        height: 2px;
+        background-color: rgb(51, 213, 210);
+        position: absolute;
+        bottom: -3px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        opacity: 0;
+        transition: all 0,3s ease;
+    }
+    header a:hover::after{
+        opacity: 1;
+    }
+    header a:hover{
+        color: rgb(20, 224, 231);
+    
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header ul{
+        position: relative;
+        display: flex;
+        align-items: center;
+        transition: 1s;
+    }
+    header ul:hover{
+        transform: scale(1.1);
+    }
+
+    header ul li{
+        list-style: none;
+
+    }
+
+    header ul li a{
+        position: sticky;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 35px;
+        text-decoration: none;
+        color: #3a86ac;
+        letter-spacing: 2px;
+        font-weight: 600;
+        transition: 0.7s;
+        display: flex;
+        
+       }
+    .menu a::after {
+        content: '';
+        width: 2.5rem;
+        height: 2px;
+        background-color: rgb(51, 213, 210);
+        position: absolute;
+        bottom: -3px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        opacity: 0;
+        transition: all 0,3s ease;
+    }
+    .menu a:hover::after{
+        opacity: 1;
+    }
+    .menu a:hover{
+        color: rgb(20, 224, 231);
+    
+    }
+    .menu2 a::after {
+        content: '';
+        width: 2.5rem;
+        height: 2px;
+        background-color: rgb(51, 213, 210);
+        position: absolute;
+        bottom: -3px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        opacity: 0;
+        transition: all 0,3s ease;
+    }
+    .menu2 a:hover::after{
+        opacity: 1;
+    }
+    .menu2 a:hover{
+        color: rgb(20, 224, 231);
+    
+    }
+
+    .redes img{
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+
+    }
+    .redes p{
+        display: flex;
+        justify-content: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #14a9a4;
+    }
+    
+    
+/* imagen */
+.zona1{
+      width: 100%;
+    height: 50rem;
+    background-image: url(../img/miku9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #179c9f;
+    text-align: center;
+    }
+
+/*imagen2*/
+
+
+/*Productos*/
+header .logo2{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.producto h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    color: #469393;
+   
+    display: inline-block;
+    padding: 15px;
+    
+}
+h2{
+    margin-top: 50px;
+    margin-bottom: 24px;
+    
+}
+body {
+    background: rgb(39,115,113);
+background: linear-gradient(90deg, rgba(39,115,113,1) 18%, rgba(0,0,0,1) 48%, rgba(26,102,95,1) 99%);}
+
+.galeria img{
+ width: 330px;
+height: 590x;
+border: 6px solid #179c9f;
+color: black;
+background-color: aqua;
+border-radius: 3rem;
+transition: 1s;
+margin: 70px;
+
+
+}
+.galeria img:hover{
+    transform: scale(1.1);
+}
+.container2 img{
+    width: 100%;
+}
+
+.galeria{
+  top: 40%;
+  left: 50%;
+
+}
+
+
+/*producto1*/
+   
+    .contenedor{
+
+        display: flex;
+        justify-content: center;
+        color: #0b0b0b;
+        margin-top: 120px;
+        margin-right: 30%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .contenedor div{
+        margin-top: 80px;
+    }
+   
+    
+    .productoimg{
+        width: 450px;
+        margin-right: 85px;
+        border-radius: 3rem;
+        transition: 2s;
+    }
+    .productoimg:hover{
+        transform: scale(1.2);
+    }
+  /*producto2*/
+  .contenedor2{
+
+    display: flex;
+    justify-content: center;
+    color: #0b0b0b;
+    margin-top: 120px;
+    margin-right: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedor2 div{
+    margin-top: 80px;
+}
+
+
+.producto2img{
+    width: 450px;
+    margin-right: 85px;
+    border-radius: 3rem;
+    transition: 2s;
+}
+.producto2img:hover{
+    transform: scale(1.2);
+}
+
+/*nosotros*/
+
+.prueba{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto {
+  margin: 100px auto;
+  position: absolute;
+  padding: 10px 5px;
+  color: rgb(1, 5, 7);
+  background: hsla(0, 0%, 100%, .3);
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.5;
+  border-radius: 10px;
+  width: 60%;
+  box-shadow: 5px 3px 30px black;
+  overflow: hidden;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.prueba img{
+    width: 100%;
+}
+
+/* footer*/
+.maps iframe{
+    margin-top: 125px;
+    margin-left: 100px;
+}
